@@ -39,7 +39,7 @@
             android:textColor="#000"
             android:padding="10dp"
             android:maxLines="10"
-            android:text="Vui Lòng Bấm Vào Hiện Chi Tiết Lỗi \n Và Chụp Màn Hình Và Gửi Cho IT Nhà Sách / Trung Tâm / Công Ty" />
+            android:text="Vui Lòng Chụp Màn Hình \n Và Gửi Cho IT Nhà Sách / Trung Tâm / Công Ty" />
         <LinearLayout
             android:layout_width="match_parent"
             android:gravity="bottom"

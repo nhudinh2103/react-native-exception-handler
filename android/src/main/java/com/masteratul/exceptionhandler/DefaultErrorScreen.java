@@ -49,6 +49,8 @@ public class DefaultErrorScreen extends Activity {
                 }
             }
         });
+        
+        showDetailsButton.performClick();
 
         relaunchButton.setOnClickListener(new View.OnClickListener() {
             @Override
