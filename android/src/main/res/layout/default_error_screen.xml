@@ -20,7 +20,7 @@
             android:textStyle="bold"
             android:textColor="#000"
             android:padding="10dp"
-            android:text="Critical Error Occured !"/>
+            android:text="Lỗi Không Mong Muốn Xảy Ra !"/>
         <ImageView
             android:tint="#F00"
             android:layout_width="match_parent"
@@ -38,7 +38,8 @@
             android:gravity="center"
             android:textColor="#000"
             android:padding="10dp"
-            android:text="This is embarrassing. We sincerely apologize for this." />
+            android:maxLines="10"
+            android:text="Vui Lòng Bấm Vào Hiện Chi Tiết Lỗi \n Và Chụp Màn Hình Và Gửi Cho IT Nhà Sách / Trung Tâm / Công Ty" />
         <LinearLayout
             android:layout_width="match_parent"
             android:gravity="bottom"
@@ -49,19 +50,19 @@
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="RELAUNCH"/>
+                android:text="Khởi Động Lại"/>
             <Button
                 android:id="@+id/eh_quit_button"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="QUIT"/>
+                android:text="Thoát"/>
         </LinearLayout>
         <Button
             android:id="@+id/eh_show_details_button"
             android:layout_width="match_parent"
             android:layout_height="25dp"
-            android:text="SHOW DETAILS"
+            android:text="Chi Tiết Lỗi"
             android:textSize="10sp"
             android:background="@android:color/transparent"
             android:textStyle="bold"

@@ -42,10 +42,10 @@ public class DefaultErrorScreen extends Activity {
                 int stackTraceViewVisibility = stackTraceView.getVisibility();
                 if(stackTraceViewVisibility == View.VISIBLE){
                     stackTraceView.setVisibility(View.GONE);
-                    showDetailsButton.setText("SHOW DETAILS");
+                    showDetailsButton.setText("Hiện Chi Tiết Lỗi");
                 }else{
                     stackTraceView.setVisibility(View.VISIBLE);
-                    showDetailsButton.setText("HIDE DETAILS");
+                    showDetailsButton.setText("Ẩn Chi Tiết Lỗi");
                 }
             }
         });
